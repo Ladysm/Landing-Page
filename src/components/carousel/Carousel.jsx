@@ -11,7 +11,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="..." className="d-block w-100" alt="..."/>
+            <img src="./img/" className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
             <img src="..." className="d-block w-100" alt="..."/>
