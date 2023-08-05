@@ -1,19 +1,30 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
-@font-face {
-  font-family: Univers-light-normal;
-  src: url('../fonts/Univers-light-normal.ttf');
-}
+
+  
 #root{
   display: flex;
 }
-@font-face {
-  font-family: Univers-light-normal;
-  src: url('./fonts/Univers-Light-Normal.ttf');
+/* Archivo app.css */
+
+
+h1 {
+  font-family: 'Univers-light-normal';
+}
+h2{
+  font-family: 'UniversLTStd';
+  color: #E23812;
+  font-size: 3.0em;
+  text-align: center;
+  padding: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .square-subscription{
