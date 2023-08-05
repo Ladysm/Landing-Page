@@ -17,8 +17,17 @@
 h1 {
   font-family: 'Univers-light-normal';
 }
+.square-subscription{
+  display: flex;
+  flex-direction: column;
+  background-color: #fade61;
+  width:100%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+}
 h2{
-  font-family: 'UniversLTStd';
+  font-family: 'UniversLTStd',Arial, sans-serif;
   color: #E23812;
   font-size: 3.0em;
   text-align: center;
@@ -27,11 +36,21 @@ h2{
   padding-right: 8%;
 }
 
-.square-subscription{
-  background-color: #fade61;
-  width:100%;
-  height: 40%;
-}
 .btn-subscription{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:#e23812;
+  width: 20%;
+  height: 20%;
+  color:#fade61;
+  font-size: 1.5em;
+  padding: 2%;
+  border-color: #fade61;
+}
+.btn-subscription:hover {
+  background-color: rgba(226, 56, 18, 0.8);
+  border-color:#fade61;
+  color:#fade61;
 }
