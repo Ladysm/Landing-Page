@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
-import { Carousel } from './components/carousel/carousel'
+import { Slide } from './components/Slide.jsx'
 // import { Carousel } from './img/img01.jpg'
 
 function App () {
@@ -9,6 +9,8 @@ function App () {
   return (
     <div className='App'>
       <div>holi</div>
+      <Slide/>
+
     </div>
   )
 }
