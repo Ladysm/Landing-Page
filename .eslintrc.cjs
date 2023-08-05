@@ -22,6 +22,5 @@ module.exports = {
     'prefer-const': 'error',
     eqeqeq: 'error',
     indent: ['error', 2]
-
   }
 }
