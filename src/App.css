@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+@font-face {
+  font-family: Univers-light-normal;
+  src: url('../fonts/Univers-light-normal.ttf');
+}
+#root{
+  display: flex;
+}
+@font-face {
+  font-family: Univers-light-normal;
+  src: url('./fonts/Univers-Light-Normal.ttf');
+}
+
+.square-subscription{
+  background-color: #fade61;
+  width:100%;
+  height: 40%;
+}
+.btn-subscription{
+
+}
