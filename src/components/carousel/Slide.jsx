@@ -1,7 +1,8 @@
 import React from 'react'
 
 import React from 'react';
-import slide1 from '../assets/img01.jpg';
+//import slide1 from '../assets/img01.jpg';
+import img01 from './'
 import slide2 from './assets/';
 import slide3 from '../assets/slide3.jpg'
 
