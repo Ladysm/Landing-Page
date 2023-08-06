@@ -1,8 +1,8 @@
-import pegasusImage from './assets/img4.jgp';
+import pegasusImage from './assets/img4.jpg';
 
 export const data = {
   name: 'Nike Pegasus 40',
-  img: './',
+  img: pegasusImage,
   slogan: 'Siéntelo para creerlo. Disponible en Nike Store.',
   links: [
     {
