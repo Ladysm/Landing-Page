@@ -35,6 +35,13 @@ h2{
   padding-left: 8%;
   padding-right: 8%;
 }
+h3{
+  margin-top: -5%;
+}
+label{
+  margin-bottom: -7%;
+  margin-top: 3%;
+}
 
 .btn-subscription{
   display: flex;
@@ -92,31 +99,63 @@ h2{
   align-items: center;
   border-radius: 20px;
   
-   
-  gap: 2px;
-  padding: 10%;
+ 
+  padding-top: 0%;
   margin: 0%;
   width: 90%;
   text-align: center;
 }
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-right: 5%;
+  margin-top: 1%;
+ justify-content: center;
+}
+
+
+
+
+
 /* Estilos para el título dentro del modal */
-.custom-modal h2 {
+.custom-modal h3 {
   color: #1a1a1a; /* Color del texto */
   font-size: 1.5em; /* Tamaño de fuente */
      /* Espacio inferior */
     font-family: 'UniversLTStd',Arial, sans-serif;
+    padding: 0;
+    
 
 }
-
+.container-button-sent {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  
+  justify-content: center;
+  width: 87%;
+  align-items: center;
+}
 /* Estilos para el botón dentro del modal */
 .custom-modal button {
   background-color: #e23812; /* Color de fondo del botón */
   color: #fade61; /* Color del texto del botón */
   border: none; /* Sin borde */
-  padding: 10px 16px; /* Espaciado interno */
+ 
+ padding-left: 5%;
+ padding-right: 5%;
+ padding-top: 2%;
+padding-bottom:2% ;
   border-radius: 4px; /* Radio del borde */
   cursor: pointer; /* Cursor de puntero al pasar por encima */
-  margin:5%;
+  margin-top:8%;
+  width: 70%;
+  margin-left: 5%;
+}
+input{
+  width: 110%;
 }
 
 /* Estilos para el botón cuando se pasa el mouse por encima */

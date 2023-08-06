@@ -36,9 +36,12 @@ export const Subscription = () => {
         contentLabel="Formulario de Suscripción"
         className={'custom-modal'}
       >
-        <h2>Formulario de Suscripción</h2>
+      
+        <h3>Formulario de Suscripción</h3>
+      
+        
         <form className="form-modal" onSubmit={handleSubmit}>
-          <div>
+          <div className="input-container" >
             <label htmlFor="name">Nombre:</label><br />
             <input
               type="text"
@@ -48,7 +51,7 @@ export const Subscription = () => {
               required
             />
           </div>
-          <div>
+          <div className="input-container">
             <label htmlFor="email">Correo Electrónico:</label><br />
             <input
               type="email"
@@ -58,7 +61,9 @@ export const Subscription = () => {
               required
             />
           </div>
+         <div className="container-button-sent">
           <button type="submit">Enviar</button>
+          </div> 
         </form>
       </Modal>
     </div>
