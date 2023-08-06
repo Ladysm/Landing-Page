@@ -37,10 +37,10 @@ export const createpost = (name, email) => {
     createdAt: serverTimestamp()
   })
     .then(() => {
-      console.log('Documento agregado correctamente');
+      console.log('funciona!!!');
     })
     .catch((error) => {
-      console.error('Error al agregar el documento:', error);
+      console.error('error:', error);
     });
 };
 

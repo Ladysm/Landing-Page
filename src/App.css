@@ -165,3 +165,12 @@ input{
   color:#fade61; /* Cambio de color al pasar el mouse */
  
 }
+.mesaage-ok{
+  
+  padding-top: 5%;
+  font-family: 'UniversLTStd',Arial, sans-serif;
+}
+ion-icon {
+  color: #8EAC50;
+}
+

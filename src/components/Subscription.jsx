@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import Modal from 'react-modal';
 import { createpost } from '../firebase/firebase';
 export const Subscription = () => {
   const [openModal, setOpenModal] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [sent, setSent] = useState(false);
 
   const handleClick = () => {
     setOpenModal(true);
@@ -13,10 +14,13 @@ export const Subscription = () => {
   const handleCloseModal = () => {
     setOpenModal(false);
   };
-    // Esto lo hago para borrar los campos del formulario cuando le den al boton enviar
+  // hago esto para borrar el mensaje despuestde haberlo enviado
+
+  // Esto lo hago para borrar los campos del formulario cuando le den al boton enviar
   const resetFields = () => {
     setName('');
     setEmail('');
+    setSent('');
   };
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,12 +29,21 @@ export const Subscription = () => {
     console.log('Email:', email);
     // aquì llamo a la funciòn  para guardar los datos en firestore
     createpost(name, email);
+    setSent(true);
 
-    // Cerrar el modal después de enviar el formulario.
-    setOpenModal(false);
-    // borrar campos despues de cerra
-    resetFields();
+    // Cerrar el modal después de 5 segundos
+    setTimeout(() => {
+      setOpenModal(false);
+      resetFields();
+    }, 3000);
   };
+  // Limpiar el estado de "sent" al abrir el modal nuevamente
+  useEffect(() => {
+    if (openModal) {
+      setSent(false);
+    }
+  }, [openModal]);
+
 
   return (
     <div className='square-subscription'>
@@ -72,6 +85,8 @@ export const Subscription = () => {
           <div className="container-button-sent">
             <button type="submit">Enviar</button>
           </div>
+          {sent && <div className="mesaage-ok"> Datos enviados correctamente <ion-icon name="chevron-down-circle"></ion-icon></div>}
+
         </form>
       </Modal>
     </div>
