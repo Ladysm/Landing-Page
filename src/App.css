@@ -54,8 +54,7 @@ h2{
   border-color:#fade61;
   color:#fade61;
 }
-<<<<<<< Updated upstream
-=======
+
 /* Estilos para el overlay (fondo oscuro) del modal */
 .custom-modal Overlay {
   background-color: rgba(18, 182, 26, 0.5); /* Fondo oscuro semi-transparente */
@@ -127,4 +126,3 @@ h2{
   color:#fade61; /* Cambio de color al pasar el mouse */
  
 }
->>>>>>> Stashed changes

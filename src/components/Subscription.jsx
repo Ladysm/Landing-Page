@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 
 export const Subscription = () => {
-  const [openModal, setOpenModal] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
   const handleClick = () => {
-    setOpenModal(true);
+    setIsModalOpen(true);
   };
 
   const handleCloseModal = () => {
-    setOpenModal(false);
+    setIsModalOpen(false);
   };
 
   const handleSubmit = (e) => {
@@ -20,36 +20,25 @@ export const Subscription = () => {
     console.log('Nombre:', name);
     console.log('Email:', email);
     // Cerrar el modal después de enviar el formulario.
-    setOpenModal(false);
+    setIsModalOpen(false);
   };
 
   return (
     <div className='square-subscription'>
       <h2>¡Suscríbete y sé el primero en conocer las últimas tendencias en calzado deportivo!</h2>
       <button type="button" className="btn btn-secondary btn-subscription" onClick={handleClick}>
-        SUSCRÍBETE</button>
+        SUSCRÍBETE
+      </button>
+
       <Modal
-        isOpen={openModal}
+        isOpen={isModalOpen}
         onRequestClose={handleCloseModal}
-<<<<<<< Updated upstream
-        contentLabel="Formulario de Suscripción">
-        <h2>Formulario de Suscripción</h2>
-        <form className="form-modal" onSubmit={handleSubmit}>
-
-          <label htmlFor="name">Nombre:</label>
-          <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} required/>
-          <label htmlFor="email">Correo Electrónico:</label>
-          <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}required/>
-
-=======
         contentLabel="Formulario de Suscripción"
-        className="custom-modal"
       >
-        
-        <form className="form-modal"onSubmit={handleSubmit}>
         <h2>Formulario de Suscripción</h2>
+        <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="name">Nombre:</label> <br></br>
+            <label htmlFor="name">Nombre:</label>
             <input
               type="text"
               id="name"
@@ -59,7 +48,7 @@ export const Subscription = () => {
             />
           </div>
           <div>
-            <label htmlFor="email">Correo Electrónico:</label><br></br>
+            <label htmlFor="email">Correo Electrónico:</label>
             <input
               type="email"
               id="email"
@@ -68,11 +57,9 @@ export const Subscription = () => {
               required
             />
           </div>
->>>>>>> Stashed changes
           <button type="submit">Enviar</button>
-          </form>
+        </form>
       </Modal>
     </div>
-
   );
 };
