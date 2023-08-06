@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-
+import { createpost } from '../firebase/firebase';
 export const Subscription = () => {
   const [openModal, setOpenModal] = useState(false);
   const [name, setName] = useState('');
@@ -13,14 +13,23 @@ export const Subscription = () => {
   const handleCloseModal = () => {
     setOpenModal(false);
   };
-
+    // Esto lo hago para borrar los campos del formulario cuando le den al boton enviar
+  const resetFields = () => {
+    setName('');
+    setEmail('');
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     // Aquí puedes realizar acciones con los datos del formulario, como enviarlos al servidor.
     console.log('Nombre:', name);
     console.log('Email:', email);
+    // aquì llamo a la funciòn  para guardar los datos en firestore
+    createpost(name, email);
+
     // Cerrar el modal después de enviar el formulario.
     setOpenModal(false);
+    // borrar campos despues de cerra
+    resetFields();
   };
 
   return (
@@ -36,10 +45,9 @@ export const Subscription = () => {
         contentLabel="Formulario de Suscripción"
         className={'custom-modal'}
       >
-      
+
         <h3>Formulario de Suscripción</h3>
-      
-        
+
         <form className="form-modal" onSubmit={handleSubmit}>
           <div className="input-container" >
             <label htmlFor="name">Nombre:</label><br />
@@ -61,9 +69,9 @@ export const Subscription = () => {
               required
             />
           </div>
-         <div className="container-button-sent">
-          <button type="submit">Enviar</button>
-          </div> 
+          <div className="container-button-sent">
+            <button type="submit">Enviar</button>
+          </div>
         </form>
       </Modal>
     </div>
