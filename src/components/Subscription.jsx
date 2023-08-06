@@ -27,41 +27,23 @@ export const Subscription = () => {
     <div className='square-subscription'>
       <h2>¡Suscríbete y sé el primero en conocer las últimas tendencias en calzado deportivo!</h2>
       <button type="button" className="btn btn-secondary btn-subscription" onClick={handleClick}>
-        SUSCRÍBETE
-      </button>
-
+        SUSCRÍBETE</button>
       <Modal
         isOpen={openModal}
         onRequestClose={handleCloseModal}
-        contentLabel="Formulario de Suscripción"
-      >
+        contentLabel="Formulario de Suscripción">
         <h2>Formulario de Suscripción</h2>
         <form className="form-modal" onSubmit={handleSubmit}>
-          <div>
-            <label htmlFor="name">Nombre:</label>
-            <input
-              type="text"
-              id="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="email">Correo Electrónico:</label>
-            <input
-              type="email"
-              id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
+
+          <label htmlFor="name">Nombre:</label>
+          <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} required/>
+          <label htmlFor="email">Correo Electrónico:</label>
+          <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}required/>
+
           <button type="submit">Enviar</button>
-        </form>
+          </form>
       </Modal>
     </div>
 
   );
 };
- s
