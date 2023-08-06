@@ -21,6 +21,7 @@ module.exports = {
     'no-var': 'error',
     'prefer-const': 'error',
     eqeqeq: 'error',
-    indent: ['error', 2]
+    indent: ['error', 2],
+    semi: ['error', 'always']
   }
-}
+};

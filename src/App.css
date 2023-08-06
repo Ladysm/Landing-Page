@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'UniversLTStd',Arial, sans-serif ;
 }
 
   
@@ -17,8 +17,17 @@
 h1 {
   font-family: 'Univers-light-normal';
 }
+.square-subscription{
+  display: flex;
+  flex-direction: column;
+  background-color: #fade61;
+  width:100%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+}
 h2{
-  font-family: 'UniversLTStd';
+  font-family: 'UniversLTStd',Arial, sans-serif;
   color: #E23812;
   font-size: 3.0em;
   text-align: center;
@@ -27,11 +36,93 @@ h2{
   padding-right: 8%;
 }
 
-.square-subscription{
-  background-color: #fade61;
-  width:100%;
-  height: 40%;
-}
 .btn-subscription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:#e23812;
+  width: 20%;
+  height: 20%;
+  font-weight: bold;
+  color:#fade61;
+ padding: 2%;
+  border-color: #fade61;
+}
+.btn-subscription:hover {
+  background-color: rgba(226, 56, 18, 0.8);
+  border-color:#fade61;
+  color:#fade61;
+}
 
+/* Estilos para el overlay (fondo oscuro) del modal */
+.custom-modal Overlay {
+  background-color: rgba(18, 182, 26, 0.5); /* Fondo oscuro semi-transparente */
+  justify-content: center;
+  display: flex;
+}
+
+
+/* Estilos para el contenido del modal */
+.custom-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  border-width: 5px;
+  width: 30%; /* Ancho del contenido */
+  max-width: 500px; /* Máximo ancho permitido */
+  height: 60%; /* Altura ajustable según el contenido */
+  margin: 0 auto; /* Centrar horizontalmente */
+  border-radius: 20px; /* Radio del borde */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+  padding: 0; /* Espacio interno del contenido */
+   /* Color de fondo del contenido */
+   background-color: #ffffff;
+   border-style:inset;
+   border-width: 2px;
+   border-color: #fade61;
+
+}
+.form-modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  
+   
+  gap: 2px;
+  padding: 10%;
+  margin: 0%;
+  width: 90%;
+  text-align: center;
+}
+/* Estilos para el título dentro del modal */
+.custom-modal h2 {
+  color: #1a1a1a; /* Color del texto */
+  font-size: 1.5em; /* Tamaño de fuente */
+     /* Espacio inferior */
+    font-family: 'UniversLTStd',Arial, sans-serif;
+
+}
+
+/* Estilos para el botón dentro del modal */
+.custom-modal button {
+  background-color: #e23812; /* Color de fondo del botón */
+  color: #fade61; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 10px 16px; /* Espaciado interno */
+  border-radius: 4px; /* Radio del borde */
+  cursor: pointer; /* Cursor de puntero al pasar por encima */
+  margin:5%;
+}
+
+/* Estilos para el botón cuando se pasa el mouse por encima */
+.custom-modal button:hover {
+  background-color: rgba(226, 56, 18, 0.8);
+  border-color:#fade61;
+  color:#fade61; /* Cambio de color al pasar el mouse */
+ 
 }
