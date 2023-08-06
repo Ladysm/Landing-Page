@@ -31,6 +31,7 @@ export const Subscription = () => {
       <Modal
         isOpen={openModal}
         onRequestClose={handleCloseModal}
+<<<<<<< Updated upstream
         contentLabel="Formulario de Suscripción">
         <h2>Formulario de Suscripción</h2>
         <form className="form-modal" onSubmit={handleSubmit}>
@@ -40,6 +41,34 @@ export const Subscription = () => {
           <label htmlFor="email">Correo Electrónico:</label>
           <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}required/>
 
+=======
+        contentLabel="Formulario de Suscripción"
+        className="custom-modal"
+      >
+        
+        <form className="form-modal"onSubmit={handleSubmit}>
+        <h2>Formulario de Suscripción</h2>
+          <div>
+            <label htmlFor="name">Nombre:</label> <br></br>
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="email">Correo Electrónico:</label><br></br>
+            <input
+              type="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+>>>>>>> Stashed changes
           <button type="submit">Enviar</button>
           </form>
       </Modal>

@@ -5,8 +5,6 @@ import { Subscription } from './components/Subscription.jsx';
 // import { Carousel } from './img/img01.jpg'
 
 function App () {
-  /* const [count, setCount] = useState(0) */
-
   return (
     <div className='App'>
       <Slide/>
