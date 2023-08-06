@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
+import firebase from '../firebase/firebase';
 
 export const Subscription = () => {
   const [openModal, setOpenModal] = useState(false);
