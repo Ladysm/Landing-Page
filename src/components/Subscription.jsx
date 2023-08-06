@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import firebase from '../firebase/firebase';
-
+import { createpost } from '../firebase/firebase';
 export const Subscription = () => {
   const [openModal, setOpenModal] = useState(false);
   const [name, setName] = useState('');
@@ -24,6 +23,9 @@ export const Subscription = () => {
     // Aquí puedes realizar acciones con los datos del formulario, como enviarlos al servidor.
     console.log('Nombre:', name);
     console.log('Email:', email);
+    // aquì llamo a la funciòn  para guardar los datos en firestore
+     createpost(name, email);
+
     // Cerrar el modal después de enviar el formulario.
     setOpenModal(false);
     // borrar campos despues de cerra
