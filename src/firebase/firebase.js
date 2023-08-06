@@ -22,11 +22,27 @@ export const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 // Aqui utilizo creo una funciòn para utilizar
-
+/*
 export const createpost = (name, email) => addDoc((db, 'post'), {
-  name,
-  email,
-  createdAt: serverTimestamp(Date)
+name,
+email,
+createdAt: serverTimestamp(Date)
+  
 });
+*/
+export const createpost = (name, email) => {
+  addDoc(collection(db, 'post'), {
+    name,
+    email,
+    createdAt: serverTimestamp()
+  })
+    .then(() => {
+      console.log('Documento agregado correctamente');
+    })
+    .catch((error) => {
+      console.error('Error al agregar el documento:', error);
+    });
+};
+
 
 // export const colRef = collection(db, 'post');
