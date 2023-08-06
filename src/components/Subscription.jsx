@@ -24,7 +24,7 @@ export const Subscription = () => {
     console.log('Nombre:', name);
     console.log('Email:', email);
     // aquì llamo a la funciòn  para guardar los datos en firestore
-     createpost(name, email);
+    createpost(name, email);
 
     // Cerrar el modal después de enviar el formulario.
     setOpenModal(false);
