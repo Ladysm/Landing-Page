@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 
 export const Subscription = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
   const handleClick = () => {
-    setIsModalOpen(true);
+    setOpenModal(true);
   };
 
   const handleCloseModal = () => {
-    setIsModalOpen(false);
+    setOpenModal(false);
   };
 
   const handleSubmit = (e) => {
@@ -20,7 +20,7 @@ export const Subscription = () => {
     console.log('Nombre:', name);
     console.log('Email:', email);
     // Cerrar el modal después de enviar el formulario.
-    setIsModalOpen(false);
+    setOpenModal(false);
   };
 
   return (
@@ -31,12 +31,12 @@ export const Subscription = () => {
       </button>
 
       <Modal
-        isOpen={isModalOpen}
+        isOpen={openModal}
         onRequestClose={handleCloseModal}
         contentLabel="Formulario de Suscripción"
       >
         <h2>Formulario de Suscripción</h2>
-        <form onSubmit={handleSubmit}>
+        <form className="form-modal" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Nombre:</label>
             <input
@@ -61,5 +61,7 @@ export const Subscription = () => {
         </form>
       </Modal>
     </div>
+
   );
 };
+ s
