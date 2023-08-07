@@ -46,12 +46,30 @@ export const data = {
         {
           name: 'Nike Store Plaza Central',
           url: 'https://www.google.com/maps/place/Nike+Store/@4.6316371,-74.1172675,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f8558ffceef4d:0xea708ea3a2510364!8m2!3d4.6316318!4d-74.1150788!16s%2Fg%2F11j3h48qrw?coh=164777&entry=tt&shorturl=1'
+        },
+        {
+          name: 'Nike Store Viva Envigado',
+          url: 'https://www.google.com/maps/place/Nike+Store/@6.1760514,-75.5937808,17z/data=!3m1!4b1!4m6!3m5!1s0x8e468360efce7433:0x954a4d805098f4a!8m2!3d6.1760461!4d-75.5915921!16s%2Fg%2F11h8jbs8m4?coh=164777&entry=tt&shorturl=1'
+        },
+        {
+          name: 'Nike Store C.C El Tesoro',
+          url: 'https://www.google.com/maps/place/Nike+Store+El+Tesoro/@6.1976721,-75.5648601,17z/data=!3m1!4b1!4m6!3m5!1s0x8e46829a6cfb410b:0x7e88e9ccde4253cd!8m2!3d6.1976668!4d-75.5606329!16s%2Fg%2F11bycjjrrr?coh=164777&entry=tt&shorturl=1'
+        },
+        {
+          name: 'Nike Store C.C Santafé',
+          url: 'https://www.google.com/maps/place/Nike+Rise+Santaf%C3%A9+Medellin/@6.196193,-75.5760048,17z/data=!3m1!4b1!4m6!3m5!1s0x8e468262aaf4a90f:0xd0857d48fd45a415!8m2!3d6.1961877!4d-75.5738161!16s%2Fg%2F1pty5b8qz?coh=164777&entry=tt&shorturl=1'
+        },
+        {
+          name: 'Nike Store Premium Plaza',
+          url: 'https://www.google.com/maps/place/NIKE+SPORTLINE+%E2%80%A2+Premium+Plaza/@6.2299377,-75.5744134,17z/data=!3m1!4b1!4m6!3m5!1s0x8e44284a4847d65f:0x2fcd24b74da03d5a!8m2!3d6.2299324!4d-75.5701862!16s%2Fg%2F1pv5x5y6y?coh=164777&entry=tt&shorturl=1'
         }
 
       ]
     }
   ]
 };
+
+
 
 export const data2 = {
   name: 'proyectowerun',
