@@ -21,7 +21,7 @@ export const Linktree = () => {
         <div className="container-subtitle"><h3 className="subtitle">{data.name}</h3></div>
         <div className="slogan"><p>{data.slogan}</p></div>
         <div className="container-buttons">
-          <p>BOGOTÁ</p>
+          <p className="cities" >BOGOTÁ</p>
           {bogotaLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus">
@@ -30,7 +30,7 @@ export const Linktree = () => {
             </a>
           ))}
 
-          <p>MEDELLIN</p>
+          <p className="cities" >MEDELLIN</p>
           {medellinLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus">
@@ -39,7 +39,7 @@ export const Linktree = () => {
             </a>
           ))}
 
-         <p>CALI</p>
+         <p className="cities">CALI</p>
          {caliLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus">
@@ -47,7 +47,7 @@ export const Linktree = () => {
               </button>
             </a>
           ))}
-          <p>BARRANQUILLA</p>
+          <p className="cities">BARRANQUILLA</p>
           {barranquillaLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus">
@@ -55,7 +55,7 @@ export const Linktree = () => {
               </button>
             </a>
           ))}
-          <p>MANIZALES</p>
+          <p className="cities">MANIZALES</p>
           {manizalesLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus ">
@@ -64,7 +64,7 @@ export const Linktree = () => {
             </a>
           ))}
 
-          <p>PEREIRA</p>
+          <p className="cities">PEREIRA</p>
           {pereiraLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus">

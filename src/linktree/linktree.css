@@ -5,7 +5,7 @@
     font-family: 'UniversLTStd',Arial, sans-serif ;
   }
   
-  
+ 
    .container-pegasus{
     display: flex;
    
@@ -31,7 +31,7 @@
     border-radius: 15px;
     width: 60%;
     padding-bottom: 3%;
-    pa
+    
     
    }
    .image-pegasus{
@@ -70,7 +70,16 @@
     width: 100%;
     border-radius: 20px;
     margin: 1%;
+    border-color: #ffff;
+    color: #888888;
     
-    
-
+   }
+   .btn-pegasus:hover{
+    background-color: transparent;
+    border-color: #ffff;
+    color: #ffff;
+   }
+   .cities{
+    text-align: center;
+    margin-top: 4%;
    }
