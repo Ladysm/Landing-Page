@@ -7,32 +7,41 @@
 .container-linktree{
     display: flex;
     flex-direction: column;
-    
+    width: auto; /* Cambiar el ancho a automático */
+  margin: 0 auto; /* Márgenes automáticos horizontalmente */
+  background-color: #a29900;
+  margin: 0 auto; /* Márgenes automáticos horizontalmente */
+  
 }
 .text-square-container{
     display: flex;
     flex-direction: column;
 }
 
-.button-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 5%;
-    gap: 40px;
-   }
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%; /* Cambiar el ancho a automático */
+  margin: 0 auto; /* Márgenes automáticos horizontalmente */
+  
+  
+  
+  background-color: #a834c3;
+}
+
    .button-pegaus{
     background-image: linear-gradient(175deg, #ffad78 0, #ffa278 8.33%, #ff977a 16.67%, #ff897c 25%, #ff7b7f 33.33%, #ff6b82 41.67%, #ff5a87 50%, #f6498d 58.33%, #ec3a96 66.67%, #df2fa0 75%, #cf2bab 83.33%, #bd2db7 91.67%, #a834c3 100%);
     color: #ffff;
     font-weight: bold;
-    width: 40%;
+    width: 60%;
+    margin-bottom: 5%;
+   
    }
-   .button-pegaus:hover{
-    background-image: linear-gradient(175deg, #0d97ff 0, #5792ff 4.17%, #7b8cff 8.33%, #9685fc 12.5%, #ac7ef3 16.67%, #c078e8 20.83%, #d071dd 25%, #de6ad0 29.17%, #e964c2 33.33%, #f25fb4 37.5%, #f85ca5 41.67%, #fd5a96 45.83%, #ff5a87 50%, #ff5c78 54.17%, #fe5f6a 58.33%, #fa645c 62.5%, #f56a4f 66.67%, #ef7042 70.83%, #e77735 75%, #de7d29 79.17%, #d4831d 83.33%, #c88910 87.5%, #bc8f03 91.67%, #af9400 95.83%, #a29900 100%);
-    color: #ffff;
+   
 
-} 
+
 .button-werun{
     color: #ffff;
     font-weight: bold;
@@ -49,10 +58,7 @@
 
   }
  /* Container.css */
-.button-container {
-    display: flex;
-    justify-content: center;
-  }
+
   
   .content-container {
     display: flex;
