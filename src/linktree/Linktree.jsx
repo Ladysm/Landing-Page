@@ -14,8 +14,9 @@ export const Linktree = () => {
   const pereiraLocations = data.links.find(city => city.city === 'PEREIRA').locations;
 
   return (
-    <div>
+    
       <div className='container-pegasus'>
+       <div className='card-pegasus'>
         <Avatar image={data.img} className="image-pegasus" size="large" shape="circle" />
         <div className="container-subtitle"><h3 className="subtitle">{data.name}</h3></div>
         <div className="slogan"><p>{data.slogan}</p></div>
@@ -73,6 +74,7 @@ export const Linktree = () => {
           ))}
         </div>
       </div>
-    </div>
+      </div> 
+    
   );
 };
