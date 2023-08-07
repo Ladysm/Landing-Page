@@ -8,10 +8,13 @@ import 'primeicons/primeicons.css';
 
 export const Linktree = () => {
   return (
-    <div className='container-pegasus' >
-
-      <Avatar image={data.img} className="mr-2" size="xlarge" shape="circle" />
-      <h1>{data.name}</h1>
+    <div>
+      <div className='container-pegasus'>
+      
+      <Avatar image={data.img} className="image-pegasus" size="large" shape="circle" />
+      <div><h1 className="subtitle">{data.name}</h1></div>
+     <div><h3>{data.slogan}</h3> </div> 
+     </div>
 
     </div>
 

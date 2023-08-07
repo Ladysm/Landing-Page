@@ -4,22 +4,32 @@
     box-sizing: border-box;
     font-family: 'UniversLTStd',Arial, sans-serif ;
   }
-
-  .square-linktree{
-    display: flex;
-    
-    background-color: #ffff;
-    padding: 5%;
-    flex-direction: column
-    
-    ;
+  h3{
+    font-family: 'UniversLTStd',Arial, sans-serif ;
+    color: #ffff;
+    font-size: 60%;
   }
-  .text-square-linktree{
-    display: flex;
-    flex-direction: column;
-  }
+  
    .container-pegasus{
     display: flex;
-    flex-direction: column;
+    background-image: linear-gradient(175deg, #ffad78 0, #ffa278 8.33%, #ff977a 16.67%, #ff897c 25%, #ff7b7f 33.33%, #ff6b82 41.67%, #ff5a87 50%, #f6498d 58.33%, #ec3a96 66.67%, #df2fa0 75%, #cf2bab 83.33%, #bd2db7 91.67%, #a834c3 100%);
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Cambia el valor según el tamaño deseado */
+  width: 50%;
+  flex-direction: column;
+   }
+   .image-pegasus{
+    width: 20%;
+    padding-top: 2%;
+    
+   }
+   .subtitle{
+    font-size: 150%;
+    text-align: center;
 
    }
