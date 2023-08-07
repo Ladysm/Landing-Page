@@ -16,6 +16,9 @@ export const data = {
         {
           name: 'Nike Store Parque Colina',
           url: 'https://www.google.com/maps/place/Nike+Store/@4.7322142,-74.0704009,17z/data=!4m7!3m6!1s0x8e3f85fe99686c6b:0xfe1c0be4b71a5f80!8m2!3d4.7322142!4d-74.066281!15sChtOaWtlIFN0b3JlIHBhcnVxZSBsYSBjb2xpbmFaHSIbbmlrZSBzdG9yZSBwYXJ1cWUgbGEgY29saW5hkgEUc3BvcnRpbmdfZ29vZHNfc3RvcmXgAQA!16s%2Fg%2F11dxn1ltws?coh=164777&entry=tt&shorturl=1'
+        },
+        {
+
         }
 
       ]
