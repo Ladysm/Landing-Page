@@ -11,6 +11,7 @@
   margin: 0 auto; /* Márgenes automáticos horizontalmente */
  
   margin: 0 auto; /* Márgenes automáticos horizontalmente */
+  background-color: #ff897c;
   
 }
 .text-square-container{
@@ -29,6 +30,7 @@
   width: 60%; /* Cambiar el ancho a automático */
   margin: 0 auto; /* Márgenes automáticos horizontalmente */
   gap: 15px;
+  background-color: red;
   
   
   
@@ -72,4 +74,21 @@
     align-items: center;
   }
   
-  
+  /*vista mobile*/
+  @media (max-width: 390px) {
+    .button-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 80%; /* Cambiar el ancho a automático */
+      margin: 0 auto; /* Márgenes automáticos horizontalmente */
+      gap: 15px;
+      
+      
+      
+      
+      
+    }
+
+    }
