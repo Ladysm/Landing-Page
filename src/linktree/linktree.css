@@ -7,13 +7,18 @@
 
   .square-linktree{
     display: flex;
-    justify-content: left;
+    
     background-color: #ffff;
     padding: 5%;
+    flex-direction: column
     
     ;
   }
-  .pegasus-container{
+  .text-square-linktree{
+    display: flex;
+    flex-direction: column;
+  }
+    .pegasus-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
