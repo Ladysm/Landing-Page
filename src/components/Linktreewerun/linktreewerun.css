@@ -4,3 +4,7 @@
     box-sizing: border-box;
     font-family: 'UniversLTStd',Arial, sans-serif ;
   }
+  .werun-container{
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,13 @@
+.container-linktree{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-square-container{
+    display: flex;
+    flex-direction: column;
+}
+.container-pegasus-werun{
+    display: flex;
+    flex-direction: row;
+}
