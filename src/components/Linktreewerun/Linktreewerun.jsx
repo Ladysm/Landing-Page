@@ -12,8 +12,6 @@ export const Linktreewerun = () => {
       
       <div className='werun-container'>
 
-        <Avatar image={data.img} className="mr-2" size="xlarge" shape="circle" />
-        <h1>{data.name}</h1>
 
       </div>
 
@@ -21,3 +19,6 @@ export const Linktreewerun = () => {
 
   );
 };
+/*
+        <Avatar image={data.img} className="mr-2" size="xlarge" shape="circle" />
+        <h1>{data.name}</h1>*/

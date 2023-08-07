@@ -12,8 +12,7 @@ export const Linktree = () => {
       
       <div className='pegasus-container'>
 
-        <Avatar image={data.img} className="mr-2" size="xlarge" shape="circle" />
-        <h1>{data.name}</h1>
+        
 
       </div>
 
@@ -21,3 +20,6 @@ export const Linktree = () => {
 
   );
 };
+
+/*<Avatar image={data.img} className="mr-2" size="xlarge" shape="circle" />
+        <h1>{data.name}</h1> */
