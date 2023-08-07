@@ -47,7 +47,9 @@ export const Subscription = () => {
 
   return (
     <div className='square-subscription'>
+      <div className='container-text'>
       <h2>¡Suscríbete y sé el primero en conocer las últimas tendencias en calzado deportivo!</h2>
+      </div>
       <button type="button" className="btn btn-secondary btn-subscription" onClick={handleClick}>
         SUSCRÍBETE
       </button>
