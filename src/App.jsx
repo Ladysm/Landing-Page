@@ -3,6 +3,7 @@ import './App.css';
 import { Container } from './components/Container.jsx';
 import { Slide } from './components/Slide.jsx';
 import { Subscription } from './components/Subscription.jsx';
+import { Youtube } from './components/youtube/Youtube';
 
 // import { Carousel } from './img/img01.jpg'
 
@@ -12,6 +13,7 @@ function App () {
       <Slide/>
       <Subscription/>
       <Container/>
+      <Youtube/>
       
       
     </div>
