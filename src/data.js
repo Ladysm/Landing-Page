@@ -65,11 +65,27 @@ export const data = {
         }
 
       ]
+    }, {
+      city: 'CALI',
+      locations: [
+        {
+          name: 'Nike Store Unicentro',
+          url: 'https://www.google.com/maps/place/Nike+Store/@3.3728486,-76.5415673,16.04z/data=!4m6!3m5!1s0x8e30a1d6c278777b:0xe85c15e025ac3c91!8m2!3d3.3732527!4d-76.5390951!16s%2Fg%2F11j10_mzyn?coh=164777&entry=tt&shorturl=1'
+        },
+        {
+          name: ' Nike Store Jardín Plaza',
+          url: 'https://www.google.com/maps/place/Nike+Store/@3.3692357,-76.5297074,17z/data=!3m1!4b1!4m6!3m5!1s0x8e30a174967b4303:0x195396fa9a4d3798!8m2!3d3.3692303!4d-76.5275187!16s%2Fg%2F11g6_wlzp5?coh=164777&entry=tt&shorturl=1'
+        },
+        {
+          name: 'Nike Store Chipichape',
+          url: 'https://www.google.com/maps/place/Nike+Store+Chipichape/@3.4760898,-76.5335418,17z/data=!3m1!4b1!4m6!3m5!1s0x8e30a6190f80a6fd:0xf51485f33ed28d3e!8m2!3d3.4760845!4d-76.5293146!16s%2Fg%2F1q5bm3l2s?coh=164777&entry=tt&shorturl=1'
+        }
+
+      ]
+
     }
   ]
 };
-
-
 
 export const data2 = {
   name: 'proyectowerun',
