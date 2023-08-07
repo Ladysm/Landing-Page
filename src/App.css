@@ -177,3 +177,27 @@ ion-icon {
   color: #8EAC50;
 }
 
+/*vista mobile*/
+/* Estilos específicos para vista móvil */
+@media (max-width: 390px) {
+  /* Agrega aquí los estilos específicos para la vista móvil del iPhone 12 Pro */
+  #root {
+    display: block; /* Cambiar el modo de visualización en vista móvil */
+  }
+  .square-subscription {
+    height: auto; /* Ajustar la altura según el contenido */
+    padding: 10px; /* Añadir un poco de espacio interno */
+  }
+  .container-text {
+    flex-direction: column; /* Cambiar la dirección de los elementos */
+    padding-bottom: 1%; /* Ajustar el espacio inferior */
+  }
+  h2 {
+    font-size: 1.5em; /* Cambiar el tamaño de fuente */
+  }
+  /* Agrega más estilos específicos según sea necesario */
+}
+
+
+
+

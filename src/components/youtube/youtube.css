@@ -13,7 +13,7 @@
   }
   
   .youtube-player {
-    background-color: aqua;
+    
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrar verticalmente */
@@ -31,6 +31,6 @@
     padding: 3%;
     justify-content: center;
     margin-top: 5%;
-    background-color: blue;
+    
     width: 100%;
 }  
