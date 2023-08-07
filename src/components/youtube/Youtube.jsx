@@ -5,8 +5,7 @@ export const Youtube = () => {
   const videoId = 'R0w72YEu2Jw';
 
   const opts = {
-    height: '360',
-    width: '640',
+    
     playerVars: {
 
     }
