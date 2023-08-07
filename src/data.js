@@ -116,9 +116,9 @@ export const data = {
 };
 
 export const data2 = {
-  name: ' ¡Mira lo que tenemos para ti!',
+  name: 'proyectowerun',
   img: weRunImage,
-  slogan: 'Siéntelo para creerlo. Disponible en Nike Store.',
+  slogan: '¡Mira lo que tenemos para ti!',
   instagram: 'https://www.instagram.com/proyectowerun/',
   tiktok: 'https://www.tiktok.com/@proyectowerun',
   spotify: 'https://open.spotify.com/show/0yXt7UtjjX9GyccFwfaVLp?si=64a932bf85d14016&nd=1',
