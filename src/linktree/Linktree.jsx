@@ -10,13 +10,16 @@ export const Linktree = () => {
   return (
     <div>
       <div className='container-pegasus'>
-      
-      <Avatar image={data.img} className="image-pegasus" size="large" shape="circle" />
-      <div><h1 className="subtitle">{data.name}</h1></div>
-     <div><h3>{data.slogan}</h3> </div> 
-     </div>
 
-    </div>
+        <Avatar image={data.img} className="image-pegasus" size="large" shape="circle" />
+        <div className="container-subtitle"><h1 className="subtitle">{data.name}</h1></div>
+        <div className="slogan"><h3>{data.slogan}</h3> </div>
+        <div className="container-buttons">
+        <button type="button" className="btn btn-warning button">Warning</button>
+
+      </div>
+      </div>
+          </div>
 
   );
 };

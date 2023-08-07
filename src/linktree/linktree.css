@@ -7,7 +7,8 @@
   h3{
     font-family: 'UniversLTStd',Arial, sans-serif ;
     color: #ffff;
-    font-size: 60%;
+    font-size: 80%;
+   
   }
   
    .container-pegasus{
@@ -19,17 +20,33 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Cambia el valor según el tamaño deseado */
-  width: 50%;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+  
   flex-direction: column;
    }
    .image-pegasus{
     width: 20%;
-    padding-top: 2%;
+   margin-top: 8%;
     
    }
    .subtitle{
-    font-size: 150%;
+   
     text-align: center;
+    padding: 5%;
+    font-size: 100%;
 
+   }
+   .container-subtitle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .slogan{
+    display: flex;
+    flex-direction: column;
+   }
+   .button{
+    
    }
