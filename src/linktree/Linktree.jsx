@@ -14,6 +14,7 @@ export const Linktree = () => {
         <div className="container-subtitle"><h1 className="subtitle">{data.name}</h1></div>
         <div className="slogan"><h3>{data.slogan}</h3></div>
         <div className="container-buttons">
+          <p>BOGOTÁ</p>
           {data.links.find(city => city.city === 'BOGOTÁ').locations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button">
