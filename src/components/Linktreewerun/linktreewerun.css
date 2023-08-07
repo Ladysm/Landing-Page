@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: 'UniversLTStd',Arial, sans-serif ;
   }
-  .werun-container{
+  .container-werun{
     display: flex;
     flex-direction: column;
+    background-color: aqua;
+  }
+  .card-werun{
+    display: flex;
+    background-color: 
   }

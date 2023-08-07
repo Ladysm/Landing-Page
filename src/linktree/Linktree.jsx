@@ -1,4 +1,4 @@
-import { data, data2 } from '../data';
+import { data } from '../data';
 import { Avatar } from 'primereact/avatar';
 import { Badge } from 'primereact/badge';
 

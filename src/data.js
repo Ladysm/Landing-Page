@@ -1,5 +1,5 @@
 import pegasusImage from './assets/img4.jpg';
-import weRunImage from './assets/img5.png';
+import weRunImage from './assets/imgwerun.png';
 
 export const data = {
   name: 'Nike Pegasus 40',
