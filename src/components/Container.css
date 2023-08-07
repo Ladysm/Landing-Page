@@ -42,7 +42,9 @@
     margin-bottom: 5%;
    
    }
-   
+   .button-pegasus:hover{
+    color:  #888888;
+   }
 
 
 .button-werun{

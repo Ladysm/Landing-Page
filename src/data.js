@@ -116,33 +116,51 @@ export const data = {
 };
 
 export const data2 = {
-  name: 'proyectowerun',
+  name: ' ¡Mira lo que tenemos para ti!',
   img: weRunImage,
   slogan: 'Siéntelo para creerlo. Disponible en Nike Store.',
+  instagram: 'https://www.instagram.com/proyectowerun/',
+  tiktok: 'https://www.tiktok.com/@proyectowerun',
+  spotify: 'https://open.spotify.com/show/0yXt7UtjjX9GyccFwfaVLp?si=64a932bf85d14016&nd=1',
+  youtube: 'https://www.youtube.com/@ProyectoWeRun',
   links: [
     {
-      city: 'BOGOTÁ',
-      locations: [
-        {
-          name: 'Nike Store Calle 82',
-          url: 'https://www.google.com/maps/place/Nike+Store/@4.6668873,-74.0546586,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9af5449e6bad:0xead6767acb510c3f!8m2!3d4.6668873!4d-74.0546586!16s%2Fg%2F1td77mk9?entry=ttu'
-        },
-        {
-          name: 'Nike Store Parque Colina',
-          url: 'https://www.google.com/maps/place/Nike+Store/@4.7322142,-74.0704009,17z/data=!4m7!3m6!1s0x8e3f85fe99686c6b:0xfe1c0be4b71a5f80!8m2!3d4.7322142!4d-74.066281!15sChtOaWtlIFN0b3JlIHBhcnVxZSBsYSBjb2xpbmFaHSIbbmlrZSBzdG9yZSBwYXJ1cWUgbGEgY29saW5hkgEUc3BvcnRpbmdfZ29vZHNfc3RvcmXgAQA!16s%2Fg%2F11dxn1ltws?coh=164777&entry=tt&shorturl=1'
-        }
+      name: '¡Inscríbete y entrenemos!',
+      url: 'https://www.proyectowerun.com/'
 
-      ]
     },
     {
-      city: 'MEDELLIN',
-      locations: [
+      name: 'Voces de Victoria',
+      url: 'https://open.spotify.com/show/0yXt7UtjjX9GyccFwfaVLp?si=64a932bf85d14016&nd=1'
+
+    },
+    {
+
+      store: [
         {
-          name: 'Nike Store Plaza Central',
-          url: 'https://www.google.com/maps/place/Nike+Store/@4.6316371,-74.1172675,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f8558ffceef4d:0xea708ea3a2510364!8m2!3d4.6316318!4d-74.1150788!16s%2Fg%2F11j3h48qrw?coh=164777&entry=tt&shorturl=1'
+          name: 'Nike Store Calle 82 Bogotá',
+          url: 'https://api.whatsapp.com/send?phone=573212092394&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!'
+        },
+        {
+          name: 'Nike Store Santafé Medellín',
+          url: 'https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!'
+        },
+        {
+          name: 'NikeStore Arboleda📍Pereira',
+          url: 'https://api.whatsapp.com/send?phone=573134786372&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!'
+        },
+        {
+          name: 'Nike Store 📍 Panamá 🇵🇦',
+          url: 'https://sportline.com.pa/marcas/nike.html?deporte=33&utm_source=Nike&utm_medium=Landing&utm_campaign=GT2208PROYECTORUN'
+        },
+        {
+          name: 'Nike Store 📍Guatemala 🇬🇹',
+          url: 'https://www.sportline.com.gt/marcas/nike.html'
         }
 
       ]
     }
+
   ]
+
 };
