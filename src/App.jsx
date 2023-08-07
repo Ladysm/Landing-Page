@@ -1,7 +1,6 @@
 // import { useState } from 'react'
 import './App.css';
-import './linktree/linktree.css';
-import './components/Linktreewerun/Linktreewerun.css';
+import { Container } from './components/Container.jsx';
 import { Slide } from './components/Slide.jsx';
 import { Subscription } from './components/Subscription.jsx';
 
@@ -12,6 +11,7 @@ function App () {
     <div className='App'>
       <Slide/>
       <Subscription/>
+      <Container/>
       
       
     </div>
