@@ -18,4 +18,8 @@
     display: flex;
     flex-direction: column;
   }
-   
+   .container-pegasus{
+    display: flex;
+    flex-direction: column;
+
+   }
