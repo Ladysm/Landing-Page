@@ -82,6 +82,34 @@ export const data = {
         }
 
       ]
+    },
+    {
+      city: 'BARRANQUILLA',
+      locations: [
+        {
+          name: ' Nike Store Buenavista',
+          url: 'https://www.google.com/maps/place/Nike+Buena+Vista/@11.0138939,-74.8616554,14z/data=!4m7!3m6!1s0x8ef42c4d3f53a77d:0xb3757d47d8b05c6a!8m2!3d11.0138939!4d-74.8286964!15sCiBDZW50cm8gQ29tZXJjaWFsIEJ1ZW5hdmlzdGEgbmlrZSIDiAEBWiIiIGNlbnRybyBjb21lcmNpYWwgYnVlbmF2aXN0YSBuaWtlkgEQc3BvcnRzd2Vhcl9zdG9yZeABAA!16s%2Fg%2F1q5gmj01w?coh=164777&entry=tt&shorturl=1'
+        }
+
+      ]
+    }, {
+      city: 'MANIZALES',
+      locations: [
+        {
+          name: 'Nike Store Mallplaza',
+          url: 'https://www.google.com/maps/place/Nike+%7C+Mallplaza+Manizales/@5.0653871,-75.4912383,17.76z/data=!4m6!3m5!1s0x8e476fd4edba6f49:0xf302489201f11594!8m2!3d5.0656644!4d-75.4901187!16s%2Fg%2F11f8m6c368?coh=164777&entry=tt&shorturl=1'
+        }
+      ]
+
+    },
+    {
+      city: 'PEREIRA',
+      locations: [
+        {
+          name: 'Nike Store Mallplaza',
+          url: 'https://www.google.com/maps/place/Nike/@4.8075818,-75.6880754,17z/data=!3m1!4b1!4m6!3m5!1s0x8e38873bf583a685:0x9cba41c209640369!8m2!3d4.8075765!4d-75.6838482!16s%2Fg%2F1tfjrrqs?coh=164777&entry=tt&shorturl=1'
+        }
+      ]
 
     }
   ]
