@@ -8,10 +8,12 @@ import 'primeicons/primeicons.css';
 
 export const Linktreewerun = () => {
   return (
-    <div className="square-linktree">
+    <div >
       
-      <div className='werun-container'>
+      <div >
 
+        <Avatar image={data.name} className="mr-2" size="xlarge" shape="circle" />
+        <h1>{data.name}</h1>
 
       </div>
 
@@ -19,6 +21,3 @@ export const Linktreewerun = () => {
 
   );
 };
-/*
-        <Avatar image={data.img} className="mr-2" size="xlarge" shape="circle" />
-        <h1>{data.name}</h1>*/
