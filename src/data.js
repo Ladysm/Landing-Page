@@ -118,31 +118,34 @@ export const data = {
 export const data2 = {
   name: 'proyectowerun',
   img: weRunImage,
-  slogan: '¡Mira lo que tenemos para ti!',
+  slogan: '🏃🏻 ¡Mira lo que tenemos para ti!',
+
   instagram: 'https://www.instagram.com/proyectowerun/',
   tiktok: 'https://www.tiktok.com/@proyectowerun',
   spotify: 'https://open.spotify.com/show/0yXt7UtjjX9GyccFwfaVLp?si=64a932bf85d14016&nd=1',
   youtube: 'https://www.youtube.com/@ProyectoWeRun',
   links: [
-    {
-      name: '¡Inscríbete y entrenemos!',
-      url: 'https://www.proyectowerun.com/'
 
-    },
-    {
-      name: 'Voces de Victoria',
-      url: 'https://open.spotify.com/show/0yXt7UtjjX9GyccFwfaVLp?si=64a932bf85d14016&nd=1'
-
-    },
     {
 
       store: [
+
         {
-          name: 'Nike Store Calle 82 Bogotá',
+          name: 'Voces de Victoria',
+          url: 'https://open.spotify.com/show/0yXt7UtjjX9GyccFwfaVLp?si=64a932bf85d14016&nd=1'
+
+        },
+        {
+          name: '🏃🏻‍♂️¡Inscríbete y entrenemos!',
+          url: 'https://www.proyectowerun.com/'
+
+        },
+        {
+          name: 'Nike Store Calle 82📍Bogotá',
           url: 'https://api.whatsapp.com/send?phone=573212092394&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!'
         },
         {
-          name: 'Nike Store Santafé Medellín',
+          name: 'Nike Store Santafé📍Medellín',
           url: 'https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!'
         },
         {

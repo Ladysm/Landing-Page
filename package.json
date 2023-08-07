@@ -25,6 +25,7 @@
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
     "react-transition-group": "^4.4.5",
+    "react-youtube": "^10.1.0",
     "reactstrap": "^9.2.0",
     "strap": "^0.1.0"
   },

@@ -8,16 +8,14 @@ import 'primeicons/primeicons.css';
 import '../Linktreewerun/linktreewerun.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons';
-
 export const Linktreewerun = () => {
   const handleButtonClick = (url) => {
     window.open(url, '_blank');
   };
 
   return (
-    <div className='container-werun' >
-
-      <div className='card-werun' >
+    <div className='container-werun'>
+      <div className='card-werun'>
         <div className="contianer-title">
           <Avatar image={data2.img} className="mr-2" size="xlarge" shape="circle" />
           <h3>{data2.name}</h3>
@@ -30,23 +28,21 @@ export const Linktreewerun = () => {
           <div className="container-slogan">
             {data2.slogan}
           </div>
-          <div className="container-buttons">
-          {data2.links[2].store.map(location => (
-    <button
-      key={location.name}
-      type="button"
-      className="btn btn-warning button btn-pegasus"
-      onClick={() => handleButtonClick(location.url)}
-    >
-      {location.name}
-    </button>
-  ))}
+          <div className="container-buttons-werun">
 
+            {data2.links[0].store.map(location => (
+              <button
+                key={location.name}
+                type="button"
+                className="btn btn-warning button btn-werun"
+                onClick={() => handleButtonClick(location.url)}
+              >
+                {location.name}
+              </button>
+            ))}
           </div>
-
         </div>
       </div>
     </div>
-
   );
 };
