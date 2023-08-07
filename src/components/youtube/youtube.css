@@ -1,0 +1,36 @@
+
+.video-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Cambiado de "justify-content: center" a "flex-direction: column" */
+    align-items: center;
+    /* Centrar verticalmente */
+    
+  }
+  .h4{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .youtube-player {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 20px; /* Añadir un margen superior para separar el video del título */
+    margin-bottom: 10%;
+    border-radius: 15px;
+  }
+  
+  .container-title-video {
+    text-align: center; /* Centrar horizontalmente el título */
+    margin-bottom: 20px; /* Añadir un margen inferior para separar el título del video */
+  }
+.video-title{
+    color: #ffff;
+    padding: 3%;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: blue;
+    width: 100%;
+}  

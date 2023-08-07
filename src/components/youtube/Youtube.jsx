@@ -1,20 +1,24 @@
 import YouTube from 'react-youtube';
+import '../youtube/youtube.css';
 
 export const Youtube = () => {
-  const video = 'https://www.youtube.com/watch?v=R0w72YEu2Jw';
-  const videoId = video.split('v=')[1];
+  const videoId = 'R0w72YEu2Jw';
 
   const opts = {
     height: '360',
     width: '640',
     playerVars: {
-      autoplay: 1 // Auto-play the video
+
     }
   };
 
   return (
-    <div>
-      <YouTube videoId={videoId} opts={opts} />
+    <div className="video-container">
+        <div className="container-title-video">
+            <h3 className='video-title'>Historias que nos inspiran</h3>
+        </div>
+      <YouTube className="youtube-player" videoId={videoId} opts={opts} />
+      <h4>Todos los derechos reservados ©</h4>
     </div>
   );
 };
