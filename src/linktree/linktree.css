@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'UniversLTStd',Arial, sans-serif ;
+  }
+  
+ 
+   .container-pegasus{
+    display: flex;
+   
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+   
+    
+  
+  flex-direction: column;
+   }
+   .btn-pegasus {
+    background-color: #ffff;
+    width: 100%;
+    border-radius: 20px;
+    margin: 2% 0; /* Ajuste del margen superior e inferior */
+    border-color: #ffff;
+    color: #888888;
+  }
+
+  .btn-pegasus:hover {
+    background-color: transparent;
+    border-color: #ffff;
+    color: #ffff;
+  }
+   .card-pegasus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(175deg, #ffad78 0, #ffa278 8.33%, #ff977a 16.67%, #ff897c 25%, #ff7b7f 33.33%, #ff6b82 41.67%, #ff5a87 50%, #f6498d 58.33%, #ec3a96 66.67%, #df2fa0 75%, #cf2bab 83.33%, #bd2db7 91.67%, #a834c3 100%);
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 60%;
+    padding-bottom: 3%;
+    
+    
+   }
+   .image-pegasus{
+    width: 4.0rem;
+   margin-top: 8%;
+   margin: 5%;
+    
+   }
+   .subtitle{
+   
+    text-align: center;
+    padding: 5%;
+    font-size: 150%;
+    
+
+   }
+   .container-subtitle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .slogan{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 80%;
+   }
+   .container-buttons{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+   }
+ 
+  
+   .cities{
+    text-align: center;
+    margin-top: 4%;
+   }
+   /*vista mobile*/
+   @media (max-width: 390px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'UniversLTStd', Arial, sans-serif;
+    }
+  
+    .container-pegasus {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+      
+    }
+  
+    .card-pegasus {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      
+      color: #ffff;
+      font-weight: bold;
+      border-radius: 15px;
+      width: 100%; /* Ancho ajustado para dispositivos móviles */
+      padding: 1% 0;
+      margin-top: 5%; /* Ajuste del margen superior */
+    }
+  
+    .image-pegasus {
+      width: 40%; /* Ancho ajustado para dispositivos móviles */
+      margin: 5% 0;
+    }
+  
+    .subtitle {
+      text-align: center;
+      padding: 5%;
+      font-size: 120%; /* Tamaño de fuente ajustado */
+    }
+  
+    .container-subtitle {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .slogan {
+      display: flex;
+      flex-direction: column;
+      font-size: 70%; /* Tamaño de fuente ajustado */
+    }
+  
+    .container-buttons {
+      display: flex;
+      flex-direction: column;
+      width: 90%; /* Ancho ajustado para dispositivos móviles */
+    }
+  
+    .btn-pegasus {
+      background-color: #ffff;
+      width: 100%;
+      border-radius: 20px;
+      margin: 2% 0; /* Ajuste del margen superior e inferior */
+      border-color: #ffff;
+      color: #888888;
+    }
+  
+    .btn-pegasus:hover {
+      background-color: transparent;
+      border-color: #ffff;
+      color: #ffff;
+    }
+  
+    .cities {
+      text-align: center;
+      margin-top: 4%;
+    }
+  }
+  

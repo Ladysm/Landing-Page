@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'UniversLTStd',Arial, sans-serif ;
+  }
+  .container-werun{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 3%;
+  
+   
+    
+  
+  flex-direction: column;
+
+  }
+  .card-werun{
+    display: flex;
+    background: rgb(153,153,158);
+background: linear-gradient(90deg, rgba(153,153,158,1) 0%, rgba(57,57,60,1) 35%, rgba(8,8,8,1) 100%);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 60%;
+    padding: 3%;
+  }
+  .contianer-sn{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    margin: 5%;
+    
+    gap: 20px;
+  }
+  .icon{
+  font-size: 2.0rem;
+  }
+  .icon:hover {
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  .btn-werun{
+    background-color: #ffff;
+    width: 100%;
+    border-radius: 20px;
+    margin: 2%;
+    border-color: #ffff;
+    color: black;
+    font-weight: bold;
+    
+   }
+   .btn-werun:hover{
+    background-color: black;
+    border-color: #ffff;
+    color: #ffff;
+   }
+  
+   /*vista mobile*/
+   @media (max-width: 390px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'UniversLTStd', Arial, sans-serif;
+    }
+  
+    .container-werun {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 5%;
+      padding-top: 3%;
+      flex-direction: column;
+    ;
+    }
+  
+    .card-werun {
+      display: flex;
+      background: rgb(153, 153, 158);
+      background: linear-gradient(
+        90deg,
+        rgba(153, 153, 158, 1) 0%,
+        rgba(57, 57, 60, 1) 35%,
+        rgba(8, 8, 8, 1) 100%
+      );
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      color: #ffff;
+      font-weight: bold;
+      border-radius: 15px;
+      width: 100%; /* Ancho ajustado para dispositivos móviles */
+      padding: 8%;
+      margin: 5%; /* Ajuste del margen superior */
+    }
+  
+    .contianer-sn {
+      display: flex;
+      justify-content: center;
+      padding: 3%;
+      margin: 5%;
+      gap: 20px;
+    }
+  
+    .icon {
+      font-size: 2.0rem;
+    }
+  
+    .icon:hover {
+      cursor: pointer;
+      font-size: 2.5rem;
+    }
+  
+    .btn-werun {
+      background-color: #ffff;
+      width: 100%;
+      border-radius: 20px;
+      margin: 2% 0; /* Ajuste del margen superior e inferior */
+      border-color: #ffff;
+      color: black;
+      font-weight: bold;
+    }
+  
+    .btn-werun:hover {
+      background-color: black;
+      border-color: #ffff;
+      color: #ffff;
+    }
+  }
+  

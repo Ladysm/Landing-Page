@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'UniversLTStd',Arial, sans-serif ;
+  }
+.container-linktree{
+    display: flex;
+    flex-direction: column;
+    width: auto; /* Cambiar el ancho a automático */
+  margin: 0 auto; /* Márgenes automáticos horizontalmente */
+ 
+  margin: 0 auto; /* Márgenes automáticos horizontalmente */
+  background-color: #ffff;
+
+  
+}
+.text-square-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    padding: 3%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%; /* Cambiar el ancho a automático */
+  margin: 0 auto; /* Márgenes automáticos horizontalmente */
+  gap: 15px;
+  padding: 4%;
+  
+  
+  
+  
+  
+}
+
+   .button-pegaus{
+    background-image: linear-gradient(175deg, #ffad78 0, #ffa278 8.33%, #ff977a 16.67%, #ff897c 25%, #ff7b7f 33.33%, #ff6b82 41.67%, #ff5a87 50%, #f6498d 58.33%, #ec3a96 66.67%, #df2fa0 75%, #cf2bab 83.33%, #bd2db7 91.67%, #a834c3 100%);
+    color: #ffff;
+    font-weight: bold;
+    width: 60%;
+    margin-bottom: 5%;
+   
+   }
+   .button-pegasus:hover{
+    color: #ffff;
+   }
+
+
+.button-werun{
+    color: #ffff;
+    font-weight: bold;
+    background-color: black;
+    border-color: black;
+    width: 60%;
+    border-color: black;
+}
+.button-werun:hover{
+  background: rgb(153,153,158);
+background: linear-gradient(90deg, rgba(153,153,158,1) 0%, rgba(57,57,60,1) 35%, rgba(8,8,8,1) 100%);
+border-color: black;
+
+}
+.pegasus-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    padding: 5%;
+   
+
+  }
+ /* Container.css */
+
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /*vista mobile*/
+  @media (max-width: 390px) {
+    .button-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 80%; /* Cambiar el ancho a automático */
+      margin: 0 auto; /* Márgenes automáticos horizontalmente */
+      gap: 15px;
+       
+    }
+    .container-linktree{
+      padding-top: 8%;
+      padding-bottom: 8%;
+    }
+
+    }
