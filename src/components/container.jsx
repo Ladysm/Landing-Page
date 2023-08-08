@@ -4,7 +4,7 @@ import { Linktree } from '../linktree/Linktree';
 import './Container.css';
 import './Linktreewerun/Linktreewerun.css';
 import '../linktree/linktree.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 
 export const Container = () => {

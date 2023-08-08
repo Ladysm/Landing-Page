@@ -1,7 +1,5 @@
 import { data } from '../data';
 import { Avatar } from 'primereact/avatar';
-import { Badge } from 'primereact/badge';
-
 
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -15,9 +13,9 @@ export const Linktree = () => {
   const pereiraLocations = data.links.find(city => city.city === 'PEREIRA').locations;
 
   return (
-    
-      <div className='container-pegasus'>
-       <div className='card-pegasus'>
+
+    <div className='container-pegasus'>
+      <div className='card-pegasus'>
         <Avatar image={data.img} className="image-pegasus" size="xlarge" shape="circle" />
         <div className="container-subtitle"><h3 className="subtitle">{data.name}</h3></div>
         <div className="slogan"><p>{data.slogan}</p></div>
@@ -40,8 +38,8 @@ export const Linktree = () => {
             </a>
           ))}
 
-         <p className="cities">CALI</p>
-         {caliLocations.map(location => (
+          <p className="cities">CALI</p>
+          {caliLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus">
                 {location.name}
@@ -75,7 +73,7 @@ export const Linktree = () => {
           ))}
         </div>
       </div>
-      </div> 
-    
+    </div>
+
   );
 };
