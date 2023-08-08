@@ -1,76 +1,64 @@
-
+/* Estilos generales */
 .video-container {
-    background-color: black;
-    display: flex;
-    flex-direction: column; /* Cambiado de "justify-content: center" a "flex-direction: column" */
-    align-items: center;
-    /* Centrar verticalmente */
-    
-  }
-  .h4{
-    color: white;
-    font-weight: bold;
-  }
-  
-  .youtube-player {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrar verticalmente */
-    margin-top: 20px; /* Añadir un margen superior para separar el video del título */
-    margin-bottom: 10%;
-    border-radius: 15px;
-    height: 360px;
-    width: 640px;
-  }
-  
-  .container-title-video {
-    text-align: center; /* Centrar horizontalmente el título */
-    margin-bottom: 20px; /* Añadir un margen inferior para separar el título del video */
-  }
-.video-title{
-    color: #ffff;
-    padding: 3%;
-    justify-content: center;
-    margin-top: 5%;
-    
-    width: 100%;
-}  
-@media (max-width: 390px) {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centrar verticalmente */
+}
+
+.h4 {
+  color: white;
+  font-weight: bold;
+}
+
+.youtube-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10%;
+  border-radius: 15px;
+  height: 360px; /* Cambiado de porcentaje a píxeles */
+  width: 640px; /* Cambiado de porcentaje a píxeles */
+}
+
+.container-title-video {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-title {
+  color: #ffff;
+  padding: 3%;
+  justify-content: center;
+  margin-top: 5%;
+  width: 100%;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
   .video-container {
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centrar verticalmente */
-  }
-
-  .h4 {
-    color: white;
-    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .youtube-player {
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     margin-top: 20px;
     margin-bottom: 10%;
     border-radius: 15px;
-    height: auto; /* Ajustar la altura automáticamente */
-    width: 80%; /* Usar el ancho completo del contenedor */
-  }
-
-  .container-title-video {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .video-title {
-    color: #ffff;
-    padding: 3%;
-    justify-content: center;
-    margin-top: 5%;
-    width: 100%;
+    height: 0;
+    margin-left: 30%;
+    padding-bottom: 56.25%; /* Proporción para mantener el aspecto del video (16:9) */
+    width: 10%; /* Ajusta el ancho del reproductor en dispositivos móviles */
   }
 }
