@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Linktreewerun } from './Linktreewerun/Linktreewerun';
 import { Linktree } from '../linktree/Linktree';
 import './Container.css';
-import './Linktreewerun/Linktreewerun.css';
+import './Linktreewerun/linktreewerun.css';
 import '../linktree/linktree.css';
 
 export const Container = () => {
