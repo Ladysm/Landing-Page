@@ -4,7 +4,6 @@ import App from './App.jsx';
 import Modal from 'react-modal';
 // Import our custom CSS
 import './App.css';
-import * as bootstrap from 'bootstrap';
 
 Modal.setAppElement('#root');
 
