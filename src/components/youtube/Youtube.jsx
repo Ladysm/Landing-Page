@@ -22,8 +22,9 @@ export const Youtube = () => {
             opts={opts}
           />
         </div>
-        <h4>Todos los derechos reservados ©</h4>
+        
       </div>
+      <h4>Todos los derechos reservados ©</h4>
     </div>
   );
 };
