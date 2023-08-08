@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import './App.css';
-import { Container } from './components/Container.jsx';
+import { Container } from './components/container.jsx';
 import { Slide } from './components/Slide.jsx';
 import { Subscription } from './components/Subscription.jsx';
 import { Youtube } from './components/youtube/Youtube';
