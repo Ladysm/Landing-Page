@@ -52,7 +52,7 @@ background: linear-gradient(90deg, rgba(153,153,158,1) 0%, rgba(57,57,60,1) 35%,
     background-color: #ffff;
     width: 100%;
     border-radius: 20px;
-    margin: 1%;
+    margin: 2%;
     border-color: #ffff;
     color: black;
     font-weight: bold;
@@ -101,7 +101,7 @@ background: linear-gradient(90deg, rgba(153,153,158,1) 0%, rgba(57,57,60,1) 35%,
       font-weight: bold;
       border-radius: 15px;
       width: 100%; /* Ancho ajustado para dispositivos móviles */
-      padding: 5%;
+      padding: 8%;
       margin: 5%; /* Ajuste del margen superior */
     }
   

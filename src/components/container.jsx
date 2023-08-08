@@ -4,6 +4,8 @@ import { Linktree } from '../linktree/Linktree';
 import './Container.css';
 import './Linktreewerun/Linktreewerun.css';
 import '../linktree/linktree.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export const Container = () => {
   // lo inicializo para que no se muestre
@@ -27,6 +29,7 @@ export const Container = () => {
         <button
           type="button"
           className="btn btn-warning button-pegaus"
+          
           onClick={handleClickPegasus}
         >
           Linktree pegasus

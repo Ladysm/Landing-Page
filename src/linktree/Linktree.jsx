@@ -2,6 +2,7 @@ import { data } from '../data';
 import { Avatar } from 'primereact/avatar';
 import { Badge } from 'primereact/badge';
 
+
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
@@ -17,7 +18,7 @@ export const Linktree = () => {
     
       <div className='container-pegasus'>
        <div className='card-pegasus'>
-        <Avatar image={data.img} className="image-pegasus" size="large" shape="circle" />
+        <Avatar image={data.img} className="image-pegasus" size="xlarge" shape="circle" />
         <div className="container-subtitle"><h3 className="subtitle">{data.name}</h3></div>
         <div className="slogan"><p>{data.slogan}</p></div>
         <div className="container-buttons">
