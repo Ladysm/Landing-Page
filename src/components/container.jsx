@@ -4,8 +4,6 @@ import { Linktree } from '../linktree/Linktree';
 import './Container.css';
 import './Linktreewerun/Linktreewerun.css';
 import '../linktree/linktree.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 
 export const Container = () => {
   // lo inicializo para que no se muestre
@@ -22,14 +20,14 @@ export const Container = () => {
   return (
     <div className='container-linktree'>
       <div className="text-square-container">
-        
+
         <h2 >¡Visítanos y encuentra tu calzado deportivo ideal!</h2>
       </div>
       <div className="button-container">
         <button
           type="button"
           className="btn btn-warning button-pegaus"
-          
+
           onClick={handleClickPegasus}
         >
           Linktree pegasus
@@ -47,4 +45,3 @@ export const Container = () => {
     </div>
   );
 };
-
