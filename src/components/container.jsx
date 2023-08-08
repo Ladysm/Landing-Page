@@ -5,8 +5,6 @@ import './Container.css';
 import './Linktreewerun/Linktreewerun.css';
 import '../linktree/linktree.css';
 
-
-
 export const Container = () => {
   // lo inicializo para que no se muestre
   const [showLinktree, setShowLinktree] = useState(false);
