@@ -1,3 +1,5 @@
+/* realizo las correspondientes importaciones */
+// para usar react, el modal e importar el archivo app
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
