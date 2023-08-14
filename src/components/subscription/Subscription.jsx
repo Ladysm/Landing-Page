@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-import { createpost } from '../firebase/firebase';
+import { createpost } from '../../firebase/firebase';
+
 export const Subscription = () => {
   const [openModal, setOpenModal] = useState(false);
   const [name, setName] = useState('');
