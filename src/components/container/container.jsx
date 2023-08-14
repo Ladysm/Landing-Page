@@ -3,8 +3,6 @@ import { Linktreewerun } from '../Linktreewerun/Linktreewerun';
 import { Linktree } from '../Linktree/linktree';
 import './Container.css';
 
-
-
 export const Container = () => {
   // lo inicializo para que no se muestre
   const [showLinktree, setShowLinktree] = useState(false);
