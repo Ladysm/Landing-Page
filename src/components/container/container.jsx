@@ -36,6 +36,7 @@ export const Container = () => {
         >
           Linktree pegasus
         </button>
+        {/* si showLinktree es verdadero se muestra el sub componente Linktree, de lo contario no se muestra */}
         {showLinktree && <Linktree />}
         <button
           type="button"
