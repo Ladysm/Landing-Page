@@ -1,4 +1,6 @@
-import { data } from '../data';
+import { data } from '../../data.js';
+import '../linktree/linktree.css';
+
 import { Avatar } from 'primereact/avatar';
 
 import 'primereact/resources/themes/saga-blue/theme.css';
