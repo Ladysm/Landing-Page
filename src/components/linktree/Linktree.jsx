@@ -1,12 +1,17 @@
+// importo el data
 import { data } from '../../data.js';
+// importo estilos
 import '../linktree/linktree.css';
-
+// importo el avatar de prime react
 import { Avatar } from 'primereact/avatar';
-
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
+
 export const Linktree = () => {
+  /* llamo al objeto data, espeicficamente la propiedad links que es un array
+  utilizo el mètodo find(), para encontrar en la propiedad city la cuidad === 'BOGOTÁ'
+  luego coloco el .locations para acceder a l array de las tiendas, (nombre y url en maps)
+  */
   const bogotaLocations = data.links.find(city => city.city === 'BOGOTÁ').locations;
   const medellinLocations = data.links.find(city => city.city === 'MEDELLIN').locations;
   const caliLocations = data.links.find(city => city.city === 'CALI').locations;
@@ -23,6 +28,8 @@ export const Linktree = () => {
         <div className="slogan"><p>{data.slogan}</p></div>
         <div className="container-buttons">
           <p className="cities" >BOGOTÁ</p>
+          { /* aqui uso un map para generar un nuevo array de acuerdo al filtro(find) alamcenadoe n la variable
+          lo que me permite acceder al nmbre de la tiend ay la url */}
           {bogotaLocations.map(location => (
             <a href={location.url} target="_blank" rel="noopener noreferrer" key={location.name}>
               <button type="button" className="btn btn-warning button btn-pegasus">
