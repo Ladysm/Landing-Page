@@ -1,7 +1,7 @@
 // importo el hook para cambiar el esato y los dos arhcivos
 import { useState } from 'react';
-import { Linktreewerun } from '../Linktreewerun/Linktreewerun';
-import { Linktree } from '../Linktree/Linktree.jsx';
+import { Linktreewerun } from '../Linktreewerun/Linktreewerun.jsx';
+import { Linktree } from '../Linktree/linktree.jsx';
 // import los estilos del contianer
 import './Container.css';
 // creo un componente
