@@ -43,9 +43,13 @@
   .container-video{
     width:90%;
     height: 50%;
+    display: flex;
+    justify-content: center;
   }
   .youtube-container {
     max-width: 100%; /* Ajusta el ancho máximo para dispositivos móviles */
+    display: flex;
+    justify-content: center;
   }
   .container-title{
     display: flex;
