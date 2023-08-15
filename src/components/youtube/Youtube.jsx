@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../youtube/youtube.css';
+
 
 export const Youtube = () => {
   const [videoId, setVideoId] = useState(''); // Estado para la ID del video
@@ -28,14 +30,19 @@ export const Youtube = () => {
 
   return (
     <div className="youtube-container">
+      <div className='container-title'> <h4 className='video-title'>Historias que nos inspiran</h4>
+      </div>
       {videoId && (
-        <iframe
+        <iframe className='container-video'
           width="560"
           height="315"
           src={`https://www.youtube.com/embed/${videoId}`}
           
         ></iframe>
       )}
+    <div className='footer-container'>
+      <p className='footer'>Todos los derechos reservados ©</p>
+      </div>  
     </div>
   );
 };

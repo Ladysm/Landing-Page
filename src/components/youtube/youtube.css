@@ -4,6 +4,74 @@
   box-sizing: border-box;
   font-family: 'UniversLTStd',Arial, sans-serif ;
 }
+.youtube-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  height: 100vh; /* Ajusta la altura para centrar verticalmente */
+  background-color: black;
+ 
+ 
+  
+}
+.container-title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+  margin-top: -5%;
+  margin-bottom: 3%;
+ 
+}
+
+.video-title {
+  color: #ffff;
+  
+
+  /* Otros estilos de letra si es necesario */
+}
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.footer{
+  color: #ffff;
+}
+@media  (max-width: 390px) {
+  .container-video{
+    width:90%;
+    height: 50%;
+  }
+  .youtube-container {
+    max-width: 100%; /* Ajusta el ancho máximo para dispositivos móviles */
+  }
+  .container-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    margin-top: -25%;
+    margin-bottom: 3%;
+   
+  }
+  .video-title {
+    font-size: 100%; /* Cambia el tamaño de la letra para dispositivos móviles */
+    /* Otros estilos si es necesario */
+  }
+
+  .footer {
+    font-size: 12px; /* Cambia el tamaño de la letra para dispositivos móviles */
+    /* Otros estilos si es necesario */
+  }
+}
+
+
+
+
+
+
 
 /* Estilos generales 
 .container-video-text{
@@ -24,10 +92,7 @@
 }
 
 
-.h4 {
-  color: white;
-  font-weight: bold;
-}
+
 
 .youtube-player {
   display: flex;
@@ -47,13 +112,7 @@
   
 }
 
-.video-title {
-  color: #ffff;
-  padding: 3%;
-  justify-content: center;
-  margin-top: 5%;
-  width: 100%;
-}
+
 
 /* Estilos para dispositivos móviles 
 @media (max-width: 390px) {
