@@ -15,6 +15,7 @@ export const Container = () => {
     // al botòn, uso el operador negaciòn para volver la variable boleana en lo opuesto
     // es decir, se incializa valiendo false(no se ve ), le doy click y se cambia el valor
     // a true por lo que se visualiza, y si le vuelvo a dar click se cambia a false y se oculta
+    // !false = true
     setShowLinktree(!showLinktree);
   };
   const handleClickWeRun = () => {

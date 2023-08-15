@@ -7,6 +7,7 @@ import 'primeicons/primeicons.css';
 import '../Linktreewerun/linktreewerun.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 export const Linktreewerun = () => {
   const handleButtonClick = (url) => {
     window.open(url, '_blank');
